@@ -20,7 +20,7 @@ const issueToken = async (hashSignature, beneficiary, holder) => {
       gasPrice: gasPrice.mul(210000),
     });
 
-    // return tokenRegistry;
+     return tokenRegistry;
     /*this set of code in ethersv4 will provide invalid address argument for _tokenRegistry which i just created using the oa cl{
     "reason": "invalid address",
     "code": "INVALID_ARGUMENT",
